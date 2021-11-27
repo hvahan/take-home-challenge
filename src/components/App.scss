@@ -95,3 +95,7 @@
 .Output > p:last-child {
   font-style: italic;
 }
+
+.bulma-container {
+  @import "../../node_modules/bulma/bulma";
+}

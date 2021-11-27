@@ -1,0 +1,35 @@
+.box {
+    width: 50%;
+    padding: 5px !important;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 10;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 0.3);
+
+    .field {
+        margin-bottom: 0;
+    }
+    .input {
+        border: none;
+        box-shadow: none;
+    }
+
+    .input:focus{
+        outline: none;
+        box-shadow: none;
+    }
+
+    hr {
+        margin: 0 0 5px 0 !important;
+    }
+
+    .menu {
+        .menu-label {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
